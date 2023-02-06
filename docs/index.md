@@ -2,7 +2,7 @@
 home: true
 heroImage: logo.png
 heroText:  
-tagline:  
+tagline: Документация по использованию маркетплейса SaintPlace.ru
 ---
 
 <div class="features">

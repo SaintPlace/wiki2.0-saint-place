@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     title: 'Wiki | SaintPlace',
-    description: ' ',
+    description: 'Документация по использованию маркетплейса SaintPlace.ru',
     head: [
         ['meta', { name: 'theme-color', content: '#7d30a5' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
