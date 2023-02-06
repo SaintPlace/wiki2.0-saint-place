@@ -21,7 +21,9 @@ module.exports = {
         editLinks: false,
         docsDir: '',
         lastUpdated: false,
-        search: true,
+        search: false,
+        searchMaxSuggestions: 10,
+        searchPlaceholder: 'Найти ...',
         nav: [
             {
                 text: 'SaintPlace',
@@ -202,11 +204,17 @@ module.exports = {
                 ]
             }]
         }
-        ]
+        ],
+        algolia: {
+            apiKey: 'f2dc735fa7aa2e779295f5602acd58e4',
+            indexName: 'wiki_saint_place',
+            appId: 'PFAID6BU9X'
+        }
     },
     plugins: [
         ['@vuepress/back-to-top', true],
-        ['@vuepress/medium-zoom', true]
+        ['@vuepress/medium-zoom', true],
+        ['@vuepress/search', true]
     ],
     extraWatchFiles: ['.vuepress/config/**'],
 }
