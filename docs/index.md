@@ -48,7 +48,10 @@ tagline: Документация по использованию маркетп
 </div>
 
 ::: slot footer
-«SaintPlace» © 2022-2023 | Есть вопросы? Напишите нам на <a href="mailto:info@saint-place.ru">info@saint-place.ru</a>.
-
-Сделано с 💜
+<div>
+    «SaintPlace» © 2022-2023 | Есть вопросы? Напишите нам на <a href="mailto:info@saint-place.ru">info@saint-place.ru</a>.
+</div>
+<div>
+    Сделано с 💜
+</div>
 :::
