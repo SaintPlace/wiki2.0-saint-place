@@ -206,9 +206,9 @@ module.exports = {
         }
         ],
         algolia: {
-            apiKey: 'f2dc735fa7aa2e779295f5602acd58e4',
-            indexName: 'wiki_saint_place',
-            appId: 'PFAID6BU9X'
+            apiKey: '061c8ea0d384bd73a6bf30f4d3177f0c',
+            indexName: 'saint-place',
+            appId: 'UMJI4SBM14'
         }
     },
     plugins: [
