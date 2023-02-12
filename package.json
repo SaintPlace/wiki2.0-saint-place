@@ -9,13 +9,15 @@
     "repository": "/wiki.saint-place.ru",
     "scripts": {
         "dev": "vuepress dev docs",
-        "build": "vuepress build docs"
+        "build": "vuepress build docs -d docs/.vuepress/dist",
+        "postbuild": "vuepress-sitemap -H https://wiki.saint-place.ru -d docs/.vuepress/dist"
     },
     "license": "MIT",
     "devDependencies": {
         "@vuepress/plugin-back-to-top": "1.9.7",
         "@vuepress/plugin-medium-zoom": "1.9.7",
         "@vuepress/plugin-search": "^1.9.8",
-        "vuepress": "1.9.7"
+        "vuepress": "1.9.7",
+        "vuepress-plugin-sitemap": "^2.3.1"
     }
 }

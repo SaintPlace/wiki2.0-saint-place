@@ -214,7 +214,10 @@ module.exports = {
     plugins: [
         ['@vuepress/back-to-top', true],
         ['@vuepress/medium-zoom', true],
-        ['@vuepress/search', true]
+        ['@vuepress/search', true],
+        ['sitemap', {
+            hostname: 'https://wiki.saint-place.ru'
+        }]
     ],
     extraWatchFiles: ['.vuepress/config/**'],
 }
